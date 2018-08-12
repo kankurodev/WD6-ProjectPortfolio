@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(26,26,26);
+}
+
+.red-header {
+    background-color: #B52C39;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: -2px 2px 1px #000;
+}
+
+.iCard {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(24, 27, 30, 0.6);
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.iCard-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    text-shadow: -2px 2px 1px rgba(220, 53, 69, 0.3);
+}
