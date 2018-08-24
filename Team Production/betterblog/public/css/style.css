@@ -1,0 +1,124 @@
+/****** BOOTSTRAP RESTYLING ******/
+/*fonts*/
+html {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    position: relative;
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .display-3, .display-4, .slogan {
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif !important;
+}
+
+/*colors*/
+.bg-dark {
+    background-color: rgba(200, 200, 200, 1) !important;
+}
+
+.text-primary {
+    color: #33ccff !important;
+}
+
+.bg-primary {
+    background-color: #33ccff !important;
+}
+
+/****** NAVIGATIONAL STYLING ******/
+nav, .footer {
+    background-color: rgb(100,100,100);
+}
+
+.nav-active, .nav-link:hover, .nav-link.active {
+    color: #33ccff !important;
+}
+
+.nav-item:hover, .dropdown-item:hover {
+    cursor: pointer;
+}
+
+nav .dropdown-menu {
+    background-color: rgb(100,100,100);
+}
+
+nav .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(75,75,75);
+    border-radius: 5px;
+}
+
+.nav-active:hover {
+    cursor: default;
+}
+
+/****** MISC ******/
+body {
+    padding-bottom: 100px;
+}
+
+html::before {
+    content: " ";
+    white-space: pre;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/paper.png") repeat;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 60px;
+}
+
+@media (min-width: 576px) {
+    .footer {
+        width: 95%;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        width: 96%;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        width: 97%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        width: 98%;
+    }
+}
+
+/****** CUSTOM CLASSES ******/
+.slogan {
+    font-style: italic;
+}
+
+.logo-header {
+    color: #33ccff;
+    font-weight: bold;
+    text-shadow: -2px 2px 1px rgb(50,50,50), 0 0 3px #000;
+}
+
+.card-component-header {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: -2px 2px 1px rgb(50,50,50), 0 0 3px #000;
+}
+
+.shadowed {
+    box-shadow: -2px 2px 5px 0 rgb(75, 75, 75);
+}
+
+.social-media-icon {
+    width: 20px;
+    height: 20px;
+}
